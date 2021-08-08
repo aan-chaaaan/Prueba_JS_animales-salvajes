@@ -122,7 +122,7 @@ import { Leon, Lobo, Oso, Serpiente, Aguila } from "./Animales.js";
       ContainerDivs.appendChild(ButtonCard);
       tablaAnimales.appendChild(ContainerDivs);
 
-      ContainerDivs.classList.add("card");
+      ContainerDivs.classList.add("card ");
 
       etiqImg.setAttribute("src", `/assets/imgs/${animal.img}`);
       console.log(animal.img);
@@ -149,7 +149,7 @@ import { Leon, Lobo, Oso, Serpiente, Aguila } from "./Animales.js";
 
         mostrarModal.innerHTML = `
           <img src="/assets/imgs/${animal.img}" style="height: 200px" class= "mx-auto d-block"/>
-          <ul class="text-white list-unstyled text-center">
+          <ul class="text-white list-unstyled">
             <li>Nombre: ${animal.nombre}</li>
             <li>Edad: ${animal.edad}</li>
             <li>Comentarios: ${animal.comentarios}</li>
