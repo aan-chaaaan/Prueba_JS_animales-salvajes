@@ -150,7 +150,7 @@ import { Leon, Lobo, Oso, Serpiente, Aguila } from "./Animales.js";
 
         mostrarModal.innerHTML = `
           <img src="/assets/imgs/${animal.img}" style="height: 200px"/>
-          <ul class="text-white" style:"list-style-type: none">
+          <ul class="text-white list-unstyled text-center img-fluid">
             <li>Nombre: ${animal.nombre}</li>
             <li>Edad: ${animal.edad}</li>
             <li>Comentarios: ${animal.comentarios}</li>
